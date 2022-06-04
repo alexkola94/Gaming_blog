@@ -1,6 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
+
 body {
   /* background-color: #f2f2f2; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+  font-family: 'Games', sans-serif;                                               
 }
 
 /* Hr line between sections  */
@@ -13,8 +20,10 @@ body {
   margin: 100px auto;
 }
 
-.section1 {
-  margin-top: 50px;
+
+
+.nav_space {
+  margin-top: 100px;
 }
 
 #myBtn {
@@ -38,16 +47,3 @@ body {
 }
 /* Zoom hover on articles */
 
-.zoom {
-  padding: 50px;
-  transition: transform 0.5s; /* Animation */
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(
-    1.2
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
